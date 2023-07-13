@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		434DF17C2A5FC4590011D944 /* SwiftfulThinkingMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434DF17B2A5FC4590011D944 /* SwiftfulThinkingMapApp.swift */; };
-		434DF17E2A5FC4590011D944 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434DF17D2A5FC4590011D944 /* ContentView.swift */; };
 		434DF1832A5FC45A0011D944 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434DF1822A5FC45A0011D944 /* Preview Assets.xcassets */; };
 		434DF18C2A5FCE600011D944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434DF18B2A5FCE600011D944 /* Assets.xcassets */; };
 		434DF1912A5FD22E0011D944 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434DF1902A5FD22E0011D944 /* Location.swift */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		434DF1782A5FC4590011D944 /* SwiftfulThinkingMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulThinkingMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		434DF17B2A5FC4590011D944 /* SwiftfulThinkingMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinkingMapApp.swift; sourceTree = "<group>"; };
-		434DF17D2A5FC4590011D944 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		434DF1822A5FC45A0011D944 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		434DF18B2A5FCE600011D944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		434DF1902A5FD22E0011D944 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 				434DF18E2A5FD1690011D944 /* ViewModels */,
 				434DF18F2A5FD17D0011D944 /* Views */,
 				434DF17B2A5FC4590011D944 /* SwiftfulThinkingMapApp.swift */,
-				434DF17D2A5FC4590011D944 /* ContentView.swift */,
 				434DF18B2A5FCE600011D944 /* Assets.xcassets */,
 				434DF1812A5FC45A0011D944 /* Preview Content */,
 			);
@@ -176,7 +173,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				434DF1942A5FD6C60011D944 /* LocationsDataService.swift in Sources */,
-				434DF17E2A5FC4590011D944 /* ContentView.swift in Sources */,
 				434DF1912A5FD22E0011D944 /* Location.swift in Sources */,
 				434DF17C2A5FC4590011D944 /* SwiftfulThinkingMapApp.swift in Sources */,
 			);
