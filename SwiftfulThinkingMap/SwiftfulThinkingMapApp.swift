@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct SwiftfulThinkingMapApp: App {
+    @StateObject var locationsViewModel = LocationsViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LocationsView()
+                .environmentObject(locationsViewModel)
         }
     }
 }
