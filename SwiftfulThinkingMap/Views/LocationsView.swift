@@ -5,16 +5,16 @@
 //  Created by James Greiner on 7/13/23.
 //
 
+import MapKit
 import SwiftUI
 
 struct LocationsView: View {
     @EnvironmentObject private var vm: LocationsViewModel
     
     var body: some View {
-        List {
-            ForEach(vm.locations) {
-                Text($0.name)
-            }
+        ZStack {
+            Map(coordinateRegion: $vm.mapRegion)
+                .ignoresSafeArea()
         }
     }
 }
